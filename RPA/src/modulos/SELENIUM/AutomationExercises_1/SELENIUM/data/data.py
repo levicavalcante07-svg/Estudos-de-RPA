@@ -1,0 +1,45 @@
+users = [{
+    "gender": "input[id='id_gender1']",
+    "name": "Lesvis",
+    "email": "usuario.teste@example.com",
+    "password": "senha_de_teste",
+    "password2": "senha_de_teste",
+    "birthday": "4",
+    "birthmonth": "December",
+    "birthyear": "2008",
+    "newsletter": "input[id='newsletter']",
+    "offers": "input[id='optin']",
+    "firstname": "Lesvis",
+    "lastname": "Cavalscs",
+    "company": "LGFPFTECH",
+    "address": "Rua Exemplo, 123",
+    "address2": "Apto 45",
+    "country": "United States",
+    "state": "West Virginia",
+    "city": "Charleston",
+    "zipcode": "25301",
+    "mobile_number": "+1 304-555-1234",
+    "create_account": "button[data-qa='create-account']"
+    }]
+selectors_text = [{
+    "name": "input[data-qa='signup-name']",
+    "email": "input[data-qa='signup-email']",
+    "password": "input[data-qa='signup-password']",
+    "password2": "input[data-qa='password']",
+    "firstname": "input[data-qa='first_name']",
+    "lastname": "input[data-qa='last_name']",
+    "company": "input[data-qa='company']",
+    "address": "input[data-qa='address']",
+    "address2": "input[data-qa='address2']",
+    "state": "input[data-qa='state']",
+    "city": "input[data-qa='city']",    
+    "zipcode": "input[data-qa='zipcode']",
+    "mobile_number": "input[data-qa='mobile_number']",
+}]
+selectors_select = [{
+    "birthday": "select[data-qa='days']",
+    "birthmonth": "select[data-qa='months']",
+    "birthyear": "select[data-qa='years']",
+    "country": "select[data-qa='country']",
+}]
+
