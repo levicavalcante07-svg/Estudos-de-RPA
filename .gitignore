@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------------
+# Projeto Estudos-de-RPA
+# ---------------------------------------------------------------
+# Arquivos gerados pelas automações (CSV, JSON, prints)
+RPA/output/
+# Sessões de navegador salvas pelo Playwright: contêm cookies de login!
+RPA/.auth/
+state.json
+*storage_state*.json
+# Saídas que versões antigas dos scripts gravavam na pasta atual
+resultado_ocr.json
+historico_reacao_ocr.txt
+relatorio_pyautogui.txt
